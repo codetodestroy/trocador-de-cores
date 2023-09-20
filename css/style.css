@@ -1,0 +1,56 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+    display: flex;
+    justify-content: space-around;
+
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px;
+    box-shadow: 0px 0px 10px #000;
+    background-color: #FFF;
+}
+
+.exercise-title {
+    color: #1E90FF;
+}
+
+.background {
+    display: flex;
+    flex-flow: wrap column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    height: 90vh;
+}
+
+.background-property {
+    font-size: 3rem;
+    padding: 5px 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 4px;
+    color: #FFF;
+}
+
+.background-property span {
+    color: #1E90FF;
+}
+
+#botao {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 5px 10px;
+    border: 2px solid #1E90FF;
+    border-radius: 4px;
+    background-color: transparent;
+    color: #000;
+}
